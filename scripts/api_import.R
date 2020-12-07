@@ -22,9 +22,10 @@ access_token <- get_spotify_access_token()
 library(spotifyr)
 beatles <- get_artist_audio_features('the beatles')
 
-track <- get_track('183Klch3PBWLz2S6zNUVxR')
-track2 <- get_track('42ZKztg2UwEBRP5TvQUdOu')
+track2 <- get_track('3WLuAuriiY82ESRvpmA8Ms')
 track2[['popularity']]
+track3 <- get_track('52vA3CYKZqZVdQnzRrdZt6')
+track3[['popularity']]
 
 beatles <- get_artist('3WrFJ7ztbogyGnTHbHJFl2')
 test <- get_album_tracks('1WMVvswNzB9i2UMh9svso5')
