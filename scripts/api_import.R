@@ -10,8 +10,8 @@ library(tidyverse)
 ### step 2:
 #api credentials
 ####
-Sys.setenv(SPOTIFY_CLIENT_ID = 'XXX')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = 'XXx')
+Sys.setenv(SPOTIFY_CLIENT_ID = '49946c3cdae2489481997f455f31f17b')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = 'ebffa4d17c06448ea2533bd75aa99d06')
 
 access_token <- get_spotify_access_token()
 
